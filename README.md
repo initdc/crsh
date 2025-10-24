@@ -1,27 +1,31 @@
 # crsh
 
-TODO: Write a description here
-
-## Installation
-
-TODO: Write installation instructions here
+The toy shell written by Crystal
 
 ## Usage
 
-TODO: Write usage instructions here
+`crsh`
 
-## Development
+## Commands
 
-TODO: Write development instructions here
+```
+ls
+ls -a --all
+cd
+exit
+help
 
-## Contributing
+puts
+p
+pp
+print
+```
 
-1. Fork it (<https://github.com/your-github-user/crsh/fork>)
-2. Create your feature branch (`git checkout -b my-new-feature`)
-3. Commit your changes (`git commit -am 'Add some feature'`)
-4. Push to the branch (`git push origin my-new-feature`)
-5. Create a new Pull Request
+## Refs
 
-## Contributors
+- https://github.com/brenns10/lsh
+- https://github.com/crystal-lang/crystal/blob/master/doc/man/crystal-eval.adoc
 
-- [initdc](https://github.com/your-github-user) - creator and maintainer
+## License
+
+MIT
