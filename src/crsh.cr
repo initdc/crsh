@@ -116,7 +116,7 @@ def main
   loop do
     print "> "
     input = gets
-    break if input.nil?
+    next if input.nil? || input.strip.empty?
     run_command(input)
   end
 end
